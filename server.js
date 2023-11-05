@@ -10,7 +10,8 @@ const app = express()
 const PORT = 5002
 
 //connect to MongoDB
-const dbURI = "mongodb://localhost:27017/user-profile"
+const dbURI = "mongodb+srv://serviceUser:ServiceUser1@cluster0.ptduzzq.mongodb.net/?retryWrites=true&w=majority";
+//"mongodb://localhost:27017/user-profile"
 mongoose
     .connect(dbURI, {
         useNewUrlParser: true,
